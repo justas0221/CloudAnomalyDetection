@@ -10,13 +10,13 @@ To ensure the security of the **AWS EC2 instance**, several best practices were 
    - **MFA** was enabled for both the root user and IAM users to add an extra layer of security.
    - This prevents unauthorized access even if login credentials are compromised.
 
-   ![MFA Enabled](1.png)
+   ![MFA Enabled](images/1.png)
 
 ### 2. **IAM Role and Least Privilege Principle**
    - An **IAM user** was created with administrative privileges instead of using the root account.
    - The IAM user was assigned to an **Administrator group** with controlled access.
 
-   ![IAM Administrator Access](2.png)
+   ![IAM Administrator Access](images/2.png)
 
 ### 3. **SSH Key-Based Authentication**
    - Used an **SSH key pair** instead of password-based authentication for secure access.
